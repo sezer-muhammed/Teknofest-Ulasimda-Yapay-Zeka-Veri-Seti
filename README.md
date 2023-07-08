@@ -1,18 +1,16 @@
 # Teknofest Yapay Zeka Yarışması Veri Seti
 
-Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir. 
+Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir. Toplamda 25.000 adede yakın kuş bakışı insan, taşıt, özel iniş alanı etiketleri içermektedir. Görseller stok video ve fotoğraflardan derlenmiştir.
 
+## Biz Kimiz
+
+Veri seti, Teknofest 2022 Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur. 
+
+1. takımın lideri: Şevval Belkıs Dikkaya, 
+2. takımın lideri: Muhammed İzzet Sezer
 ## Veri Seti Hakkında
 
 Bu veri seti, ulaşım temalı 25.000'den fazla görüntü ve 1 milyondan fazla etiket içerir. Her bir görüntü, çeşitli ulaşım araçları, yollar, trafik işaretleri ve daha pek çok ulaşım ile ilgili özelliği içerir. Bu veriler, yapay zeka ve makine öğrenmesi uygulamalarının eğitiminde kullanılmıştır.
-
-## İçerik
-
-Bu depoda aşağıdaki dosyaları bulabilirsiniz:
-
-- `data/`: Bu klasör, veri setinin ana klasörüdür. Burada, etiketlenmiş görüntüler ve etiket dosyalarını bulabilirsiniz.
-- `labels/`: Bu klasör, her görüntü için ayrı etiket dosyalarını içerir.
-- `README.md`: Bu dosya, veri setini kullanma ve anlama ile ilgili bilgiler içerir.
 
 ## Veri Setini Kullanma
 
@@ -28,7 +26,7 @@ Bir PASCAL VOC XML dosyası genellikle aşağıdaki bilgileri içerir:
   - `name`: Nesnenin sınıf adı.
   - `bndbox`: Nesnenin sınırlayıcı kutusunun (bounding box) koordinatları (xmin, ymin, xmax, ymax).
 
-## YOLO ile Kullanım
+### YOLO ile Kullanım
 
 YOLO (You Only Look Once), gerçek zamanlı nesne tespiti için popüler bir algoritmadır. YOLO, PASCAL VOC formatındaki verileri kullanabilir, ancak verilerin YOLO'nun beklediği belirli bir formata dönüştürülmesi gerekmektedir. 
 
@@ -53,7 +51,7 @@ Eğer bu veri setini kendi çalışmanızda kullanırsanız, lütfen aşağıdak
 
 ```
 @misc{teknofest2022dataset,
-author = {Teknofest Yapay Zeka Takımı},
+author = {Şevval Belkıs Dikkaya, Muhammed İzzet Sezer},
 title = {Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti},
 year = {2022},
 publisher = {GitHub},
@@ -62,6 +60,20 @@ howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-
 }
 ```
 
+Bu veri seti, yapay zeka topluluğuna ufak da olsa bir katkı sağlamaktadır. Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
+
+## Veri Seti İstatistikleri
+
+
+
+## Veri Toplama Metodolojisi
+
+Verilerimiz, çeşitli kaynaklardan toplanmış ve sonrasında etiketlenmiştir. Her bir görüntü dikkatlice incelemeye tabi tutulmuş ve ilgili etiketler atanmıştır. Toplama ve etiketleme süreci, modelimizin çeşitli durumlar ve koşullar altında başarılı bir şekilde performans gösterebilmesi için titizlikle yürütülmüştür.
+
+
+## Teşekkürler
+
+Bu yarışma sürecinde bize büyük destek sağlayan Desird Ar&Ge ve Orema şirketlerine içtenlikle teşekkür ederiz. Bu projenin gerçekleşmesinde katkıları büyük olmuştur.
 
 ## Lisans
 
@@ -75,26 +87,4 @@ Herhangi bir sorunuz veya öneriniz olursa, lütfen [Issues](https://github.com/
 
 - Veri setini kullanırken dikkatli bir şekilde etiketleri inceleyin, bazı etiketler hatalı olabilir.
 - Veri setini kullanmadan önce, verileri kendi projeniz için uygun formata dönüştürün.
-- Her zaman veri setinin son versiyonunu kullanmaya çalışın, düzeltmeler ve güncellemeler sürekli olarak yapılıyor.
-- Bu veri seti üzerinde herhangi bir düzenleme veya iyileştirme yaparsanız, lütfen düzenlemelerinizi paylaşmayı düşünün. Bu, topluluğun daha iyi bir veri setine sahip olmasına yardımcı olacaktır.
-
-Bu veri seti, yapay zeka topluluğuna değerli bir katkı sağlamaktadır. Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
-
-## Veri Seti İstatistikleri
-
-
-
-## Veri Toplama Metodolojisi
-
-Verilerimiz, çeşitli kaynaklardan toplanmış ve sonrasında etiketlenmiştir. Her bir görüntü dikkatlice incelemeye tabi tutulmuş ve ilgili etiketler atanmıştır. Toplama ve etiketleme süreci, modelimizin çeşitli durumlar ve koşullar altında başarılı bir şekilde performans gösterebilmesi için titizlikle yürütülmüştür.
-
-## Biz Kimiz
-
-Veri seti, Teknofest 2022 Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur. 
-
-1. takımın lideri: Şevval Belkıs Dikkaya, 
-2. takımın lideri: Muhammed İzzet Sezer
-
-## Teşekkürler
-
-Bu yarışma sürecinde bize büyük destek sağlayan Desird Ar&Ge ve Orema şirketlerine içtenlikle teşekkür ederiz. Bu projenin gerçekleşmesinde katkıları büyük olmuştur.
+- Bu veri seti üzerinde herhangi bir düzenleme veya iyileştirme yaparsanız, lütfen düzenlemelerinizi paylaşmayı düşünün.
