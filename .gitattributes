@@ -1,0 +1,6 @@
+*.zip !text !filter !merge !diff
+*.png !text !filter !merge !diff
+*.jpg !text !filter !merge !diff
+*.jpeg !text !filter !merge !diff
+*.csv !text !filter !merge !diff
+dataset/** !text !filter !merge !diff
