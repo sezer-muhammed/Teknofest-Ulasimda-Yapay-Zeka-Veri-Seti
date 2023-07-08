@@ -1,6 +1,6 @@
 # Teknofest Yapay Zeka Yarışması Veri Seti
 
-Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir.
+Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir. 
 
 ## Veri Seti Hakkında
 
@@ -58,7 +58,7 @@ title = {Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti},
 year = {2022},
 publisher = {GitHub},
 journal = {GitHub repository},
-howpublished = {\url{https://github.com/teknofestAI/dataset}},
+howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti}},
 }
 ```
 
@@ -69,7 +69,7 @@ Bu veri seti, [MIT Lisansı](LICENSE) altında yayınlanmıştır.
 
 ## İletişim
 
-Herhangi bir sorunuz veya öneriniz olursa, lütfen [Issues](https://github.com/teknofestAI/dataset/issues) bölümünü kullanarak bize bildirin.
+Herhangi bir sorunuz veya öneriniz olursa, lütfen [Issues](https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti/issues) bölümünü kullanarak bize bildirin.
 
 ## Öneriler
 
@@ -79,3 +79,22 @@ Herhangi bir sorunuz veya öneriniz olursa, lütfen [Issues](https://github.com/
 - Bu veri seti üzerinde herhangi bir düzenleme veya iyileştirme yaparsanız, lütfen düzenlemelerinizi paylaşmayı düşünün. Bu, topluluğun daha iyi bir veri setine sahip olmasına yardımcı olacaktır.
 
 Bu veri seti, yapay zeka topluluğuna değerli bir katkı sağlamaktadır. Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
+
+## Veri Seti İstatistikleri
+
+
+
+## Veri Toplama Metodolojisi
+
+Verilerimiz, çeşitli kaynaklardan toplanmış ve sonrasında etiketlenmiştir. Her bir görüntü dikkatlice incelemeye tabi tutulmuş ve ilgili etiketler atanmıştır. Toplama ve etiketleme süreci, modelimizin çeşitli durumlar ve koşullar altında başarılı bir şekilde performans gösterebilmesi için titizlikle yürütülmüştür.
+
+## Biz Kimiz
+
+Veri seti, Teknofest 2022 Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur. 
+
+1. takımın lideri: Şevval Belkıs Dikkaya, 
+2. takımın lideri: Muhammed İzzet Sezer
+
+## Teşekkürler
+
+Bu yarışma sürecinde bize büyük destek sağlayan Desird Ar&Ge ve Orema şirketlerine içtenlikle teşekkür ederiz. Bu projenin gerçekleşmesinde katkıları büyük olmuştur.
