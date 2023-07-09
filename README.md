@@ -50,10 +50,10 @@ YOLO ile eğitim yapmak için gerekli olan adımlar ve ayarlar farklı YOLO vers
 Eğer bu veri setini kendi çalışmanızda kullanırsanız, lütfen aşağıdaki gibi referans verin:
 
 ```
-@misc{teknofest2022dataset,
+@misc{EflatunDataset,
 author = {Şevval Belkıs Dikkaya, Muhammed İzzet Sezer},
-title = {Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti},
-year = {2022},
+title = {Eflatun Takımı Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti},
+year = {2021},
 publisher = {GitHub},
 journal = {GitHub repository},
 howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti}},
@@ -62,23 +62,10 @@ howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-
 
 Bu veri seti, yapay zeka topluluğuna ufak da olsa bir katkı sağlamaktadır. Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
 
-## Veri Seti İstatistikleri
-
-![Combined Images](./images/combined_image.jpg)
-
-![Labels](./images/labels.jpg)
-
-![Labels Correlogram](./images/labels_correlogram.jpg)
-
-
-## Veri Toplama Metodolojisi
-
-Verilerimiz, çeşitli kaynaklardan toplanmış ve sonrasında etiketlenmiştir. Her bir görüntü dikkatlice incelemeye tabi tutulmuş ve ilgili etiketler atanmıştır. Toplama ve etiketleme süreci, modelimizin çeşitli durumlar ve koşullar altında başarılı bir şekilde performans gösterebilmesi için titizlikle yürütülmüştür.
-
 
 ## Teşekkürler
 
-Bu yarışma sürecinde bize büyük destek sağlayan Desird Ar&Ge ve Orema şirketlerine içtenlikle teşekkür ederiz. Bu projenin gerçekleşmesinde katkıları büyük olmuştur.
+Bu yarışma sürecinde bize büyük destek sağlayan Desird Ar&Ge ve Orema şirketlerine içtenlikle teşekkür ederiz.
 
 ## Lisans
 
@@ -93,3 +80,10 @@ Herhangi bir sorunuz veya öneriniz olursa, lütfen [Issues](https://github.com/
 - Veri setini kullanırken dikkatli bir şekilde etiketleri inceleyin, bazı etiketler hatalı olabilir.
 - Veri setini kullanmadan önce, verileri kendi projeniz için uygun formata dönüştürün.
 - Bu veri seti üzerinde herhangi bir düzenleme veya iyileştirme yaparsanız, lütfen düzenlemelerinizi paylaşmayı düşünün.
+## Veri Seti İstatistikleri
+
+![Combined Images](./images/combined_image.jpg)
+
+![Labels](./images/labels.jpg)
+
+![Labels Correlogram](./images/labels_correlogram.jpg)
