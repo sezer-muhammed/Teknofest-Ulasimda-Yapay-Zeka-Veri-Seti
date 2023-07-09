@@ -5,8 +5,6 @@ Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takı
 ## Veri Seti Linki
 [Veri Seti](https://bit.ly/EflatunDataSet)
 
-![Veri Seti](./images/bit.ly_3POeBPz.png)
-
 ## Biz Kimiz
 
 Veri seti, Teknofest 2022 Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur. 
@@ -96,3 +94,5 @@ Herhangi bir sorunuz veya öneriniz olursa, lütfen [Issues](https://github.com/
 ![Labels](./images/labels.jpg)
 
 ![Labels Correlogram](./images/labels_correlogram.jpg)
+
+![Veri Seti](./images/bit.ly_3POeBPz.png)
