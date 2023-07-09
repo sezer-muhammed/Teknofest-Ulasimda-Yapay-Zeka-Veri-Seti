@@ -64,6 +64,11 @@ Bu veri seti, yapay zeka topluluğuna ufak da olsa bir katkı sağlamaktadır. U
 
 ## Veri Seti İstatistikleri
 
+![Combined Images](./images/combined_image.jpg)
+
+![Labels](./images/labels.jpg)
+
+![Labels Correlogram](./images/labels_correlogram.jpg)
 
 
 ## Veri Toplama Metodolojisi
