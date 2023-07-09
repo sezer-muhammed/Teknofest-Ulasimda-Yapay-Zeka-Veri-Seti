@@ -60,6 +60,10 @@ howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-
 }
 ```
 
+```
+Şevval Belkıs Dikkaya, & Muhammed İzzet Sezer. (2021). Eflatun Takımı Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti (Version 1.0) [Data set]. GitHub. [https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti](https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti)
+```
+
 Bu veri seti, yapay zeka topluluğuna ufak da olsa bir katkı sağlamaktadır. Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
 
 
