@@ -6,17 +6,10 @@ Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takı
 [Veri Seti](https://bit.ly/EflatunDataSet)
 
 ## Biz Kimiz
-
-# Veri Seti Hakkında
-
-Bu veri seti, 2022 Teknofest Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur.
-
-# Takım Üyeleri
-
 - Şevval Belkıs Dikkaya: [LinkedIn Profili](https://www.linkedin.com/in/sbdikkaya/)
 - Muhammed Sezer: [LinkedIn Profili](https://www.linkedin.com/in/muhammed-sezer-160428208/)
 
-# İletişim ve Daha Fazlası
+### İletişim ve Daha Fazlası
 
 Eğer yaptığımız işi sevdiyseniz ve bizi takipte kalmak isterseniz [YouTube kanalımıza](https://bit.ly/SezerSevvalYoutube) abone olmayı düşünebilirsiniz! Bizi daha iyi tanımak için [websitemizi](sezer-muhammed.github.io) ziyaret edebilirsiniz.
 
