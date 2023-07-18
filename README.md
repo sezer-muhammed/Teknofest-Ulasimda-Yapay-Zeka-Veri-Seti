@@ -13,15 +13,15 @@ Veri seti, Teknofest 2022 Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikin
 2. takımın lideri: Muhammed İzzet Sezer
 ## Veri Seti Hakkında
 
-Bu veri seti, ulaşım temalı 25.000'den fazla görüntü ve 1 milyondan fazla etiket içerir. Her bir görüntü, çeşitli ulaşım araçları, yollar, trafik işaretleri ve daha pek çok ulaşım ile ilgili özelliği içerir. Bu veriler, yapay zeka ve makine öğrenmesi uygulamalarının eğitiminde kullanılmıştır.
+Bu veri seti, ulaşım temalı 25.000'den fazla görüntü ve 400.000'den fazla etiket içerir. Her bir görüntü, çeşitli ulaşım araçları, yayalar, ve özel iniş alanlarını içerir.
 
 ## Veri Setini Kullanma
 
 ### PASCAL VOC Formatı
 
-PASCAL VOC formatı, genellikle görüntü sınıflandırma ve nesne tespiti için kullanılan yaygın bir veri formatıdır. Her görüntü için bir XML dosyası içerir. Bu XML dosyası, görüntüdeki nesnelerin etiketlerini, konumlarını ve boyutlarını içerir.
+Bu veri setinde etikerler PASCAL VOC formatındadır. Bu format, her görüntü için bir XML dosyası içerir. 
 
-Bir PASCAL VOC XML dosyası genellikle aşağıdaki bilgileri içerir:
+Bu XML dosyası, görüntüdeki nesnelerin etiketlerini, konumlarını ve boyutlarını içerir:
 
 - `filename`: Görüntünün dosya adı.
 - `size`: Görüntünün boyutu (genişlik, yükseklik, derinlik).
@@ -31,9 +31,9 @@ Bir PASCAL VOC XML dosyası genellikle aşağıdaki bilgileri içerir:
 
 ### YOLO ile Kullanım
 
-YOLO (You Only Look Once), gerçek zamanlı nesne tespiti için popüler bir algoritmadır. YOLO, PASCAL VOC formatındaki verileri kullanabilir, ancak verilerin YOLO'nun beklediği belirli bir formata dönüştürülmesi gerekmektedir. 
+YOLO, PASCAL VOC formatındaki verileri kullanabilir, ancak verilerin YOLO'nun beklediği belirli bir formata dönüştürülmesi gerekmektedir. 
 
-Aşağıdaki adımlar genel bir dönüştürme işlemine işaret etmektedir. Bu işlemler genellikle bir dönüştürme scripti ile yapılır:
+Bu işlemler genellikle bir dönüştürme scripti ile yapılır:
 
 1. Her bir görüntü için bir metin dosyası oluşturun. Metin dosyasının adı, görüntünün dosya adına karşılık gelmelidir.
 2. Her bir metin dosyasında, görüntüdeki her bir nesne için bir satır olmalıdır. Her satır, aşağıdaki formatı izlemelidir:
@@ -44,9 +44,7 @@ Aşağıdaki adımlar genel bir dönüştürme işlemine işaret etmektedir. Bu 
 3. Bu değerler, görüntünün genişliği ve yüksekliğine göre normalize edilmelidir, yani tüm değerler 0 ile 1 arasında olmalıdır.
 4. Dönüştürme tamamlandığında, veri seti YOLO'nun beklediği formatta hazır olacaktır.
 
-YOLO ile eğitim yapmak için gerekli olan adımlar ve ayarlar farklı YOLO versiyonları ve uygulamaları arasında değişebilir, bu nedenle belirli bir YOLO versiyonu veya uygulaması için belgeleri ve talimatları kontrol etmenizi öneririz.
-
-
+İşinize yarayabilecek bir kaynak: [Gist](https://gist.github.com/Amir22010/a99f18ca19112bc7db0872a36a03a1ec)
 
 ## Referans Verme
 
@@ -67,7 +65,7 @@ howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-
 Şevval Belkıs Dikkaya, & Muhammed İzzet Sezer. (2021). Eflatun Takımı Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti (Version 1.0) [Data set]. GitHub. [https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti](https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti)
 ```
 
-Bu veri seti, yapay zeka topluluğuna ufak da olsa bir katkı sağlamaktadır. Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
+Umarız ki, bu veri seti üzerinde çalışmak sizi heyecanlandırır ve kendi projelerinizde kullanmaktan zevk alırsınız!
 
 
 ## Teşekkürler
