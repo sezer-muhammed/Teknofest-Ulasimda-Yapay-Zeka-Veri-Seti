@@ -11,7 +11,7 @@ Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takı
 
 ### İletişim ve Daha Fazlası
 
-Eğer yaptığımız işi sevdiyseniz ve bizi takipte kalmak isterseniz [YouTube kanalımıza](https://bit.ly/SezerSevvalYoutube) abone olmayı düşünebilirsiniz! Bizi daha iyi tanımak için [websitemizi](sezer-muhammed.github.io) ziyaret edebilirsiniz.
+Eğer yaptığımız işi sevdiyseniz ve bizi takipte kalmak isterseniz [YouTube kanalımıza](https://bit.ly/SezerSevvalYoutube) abone olmayı düşünebilirsiniz! Bizi daha iyi tanımak için [websitemizi](https://sezer-muhammed.github.io) ziyaret edebilirsiniz.
 
 ## Veri Seti Hakkında
 
