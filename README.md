@@ -7,10 +7,19 @@ Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takı
 
 ## Biz Kimiz
 
-Veri seti, Teknofest 2022 Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur. 
+# Veri Seti Hakkında
 
-1. takımın lideri: Şevval Belkıs Dikkaya, 
-2. takımın lideri: Muhammed İzzet Sezer
+Bu veri seti, 2022 Teknofest Ulaşımda Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlar tarafından oluşturulmuştur.
+
+# Takım Üyeleri
+
+- Şevval Belkıs Dikkaya: [LinkedIn Profili](https://www.linkedin.com/in/sbdikkaya/)
+- Muhammed Sezer: [LinkedIn Profili](https://www.linkedin.com/in/muhammed-sezer-160428208/)
+
+# İletişim ve Daha Fazlası
+
+Eğer yaptığımız işi sevdiyseniz ve bizi takipte kalmak isterseniz [YouTube kanalımıza](https://bit.ly/SezerSevvalYoutube) abone olmayı düşünebilirsiniz! Bizi daha iyi tanımak için [websitemizi](sezer-muhammed.github.io) ziyaret edebilirsiniz.
+
 ## Veri Seti Hakkında
 
 Bu veri seti, ulaşım temalı 25.000'den fazla görüntü ve 400.000'den fazla etiket içerir. Her bir görüntü, çeşitli ulaşım araçları, yayalar, ve özel iniş alanlarını içerir.
