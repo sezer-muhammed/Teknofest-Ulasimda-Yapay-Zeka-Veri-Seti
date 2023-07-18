@@ -15,7 +15,7 @@ Eğer yaptığımız işi sevdiyseniz ve bizi takipte kalmak isterseniz [YouTube
 
 ## Veri Seti Hakkında
 
-Bu veri seti, ulaşım temalı 25.000'den fazla görüntü ve 400.000'den fazla etiket içerir. Her bir görüntü, çeşitli ulaşım araçları, yayalar, ve özel iniş alanlarını içerir.
+Bu veri seti, ulaşım temalı 25.000'den fazla görüntü ve 300.000'den fazla etiket içerir. Her bir görüntü, çeşitli ulaşım araçları, yayalar, ve özel iniş alanlarını içerir.
 
 ## Veri Setini Kullanma
 
