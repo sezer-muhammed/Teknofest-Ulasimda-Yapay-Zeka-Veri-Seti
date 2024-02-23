@@ -3,7 +3,7 @@
 Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir. Toplamda 25.000 adede yakın kuş bakışı insan, taşıt, özel iniş alanı etiketleri içermektedir. Görseller stok video ve fotoğraflardan derlenmiştir.
 
 ## Veri Seti Linki
-[Veri Seti](https://bit.ly/EflatunDataSet)
+[Veri Seti](https://bit.ly/49BvN1w)
 
 ## Biz Kimiz
 - Şevval Belkıs Dikkaya: [LinkedIn Profili](https://www.linkedin.com/in/sbdikkaya/)
