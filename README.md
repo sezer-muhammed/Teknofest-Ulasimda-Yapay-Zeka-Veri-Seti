@@ -1,39 +1,50 @@
+# Teknofest Artificial Intelligence Competition Dataset
+
 ![Preview](https://bmeqhxsikltbwjf8.public.blob.vercel-storage.com/image.webp)
 
-# Teknofest Yapay Zeka Yarışması Veri Seti
+## 🔗 Links
 
-Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir. Toplamda 25.000 adede yakın kuş bakışı insan, taşıt, özel iniş alanı etiketleri içermektedir. Görseller stok video ve fotoğraflardan derlenmiştir.
-
-## 📦 Veri Seti Linki
-
-[![Download Dataset](https://img.shields.io/badge/Download-Dataset-blue)](https://drive.google.com/file/d/1NdMg_4DKWNWg6_lzqMm6tzfqBjaK8Hdu/view?usp=sharing)
-
-## 🧪 Hugging Face Demo
-
-[![Hugging Face Spaces](https://img.shields.io/badge/Demo-HuggingFace-orange)](https://huggingface.co/spaces/sezer-muhammed/Traffic-Object-Detection)
-
-## 👥 Biz Kimiz
-
-- Şevval Belkıs Dikkaya: [LinkedIn](https://www.linkedin.com/in/sbdikkaya/)
-- Muhammed Sezer: [LinkedIn](https://www.linkedin.com/in/muhammed-sezer-160428208/)
-
-> Daha fazla içerik için [YouTube kanalımız](https://bit.ly/SezerSevvalYoutube)'a abone olabilir, [web sitemizi](https://imsezer.com) ziyaret edebilirsiniz.
+- 🧪 [Live Demo (Hugging Face)](https://huggingface.co/spaces/sezer-muhammed/Traffic-Object-Detection)
+- 📦 [Download Dataset (Google Drive)](https://drive.google.com/file/d/1NdMg_4DKWNWg6_lzqMm6tzfqBjaK8Hdu/view?usp=sharing)
+- 📺 [YouTube Channel](https://bit.ly/SezerSevvalYoutube)
 
 ---
 
-## 📊 Veri Seti Özeti
+## 📘 Description
 
-- **25.000+** kuş bakışı görsel
-- **300.000+** etiket
-- Sınıflar: **Taşıt (vehicle)** ve **Yaya (pedestrian)**
-- Etiketler: **YOLO formatında**
-- Yapı: `train/`, `test/` klasörleri ve `dataset.yaml` dosyası mevcut
+This repository contains the dataset used by the first and second place teams in the 2022 Teknofest Artificial Intelligence Competition. It includes nearly **25,000** top-down annotated images of people, vehicles, and helipads. Images were sourced from stock video and photography.
 
 ---
 
-## 📁 YOLO Formatı
+## 📊 Dataset Summary
 
-Veri seti, YOLO tabanlı modeller (YOLOv5, YOLOv8, vb.) için doğrudan kullanılabilir. Her `.txt` etiketi aşağıdaki gibi düzenlenmiştir:
+- **25,000+** aerial view images
+- **300,000+** annotations
+- Classes: **Vehicle**, **Pedestrian**
+- Format: **YOLO-style annotations**
+- Structure includes `train/`, `test/` folders and a `dataset.yaml` config file
 
-```txt
+---
+
+## 📁 YOLO Format
+
+The dataset is directly compatible with YOLO-based models (e.g., YOLOv5, YOLOv8). Each `.txt` annotation file follows the format below:
+
+```
 <class_id> <x_center> <y_center> <width> <height>
+```
+
+---
+
+## 📚 Citation
+
+```
+@misc{EflatunDataset,
+  author       = {Şevval Belkıs Dikkaya, Muhammed İzzet Sezer},
+  title        = {Eflatun Team Teknofest AI in Transportation Competition Dataset},
+  year         = {2021},
+  publisher    = {GitHub},
+  journal      = {GitHub repository},
+  howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti}},
+}
+```
