@@ -1,3 +1,5 @@
+![Preview](https://bmeqhxsikltbwjf8.public.blob.vercel-storage.com/image.webp)
+
 # Teknofest Yapay Zeka Yarışması Veri Seti
 
 Bu depo, 2022 Teknofest Yapay Zeka Yarışması'nda birinci ve ikinci olan takımlarımızın kullandığı veri setini içerir. Toplamda 25.000 adede yakın kuş bakışı insan, taşıt, özel iniş alanı etiketleri içermektedir. Görseller stok video ve fotoğraflardan derlenmiştir.
@@ -35,15 +37,3 @@ Veri seti, YOLO tabanlı modeller (YOLOv5, YOLOv8, vb.) için doğrudan kullanı
 
 ```txt
 <class_id> <x_center> <y_center> <width> <height>
-```
-
-```
-@misc{EflatunDataset,
-  author       = {Şevval Belkıs Dikkaya, Muhammed İzzet Sezer},
-  title        = {Eflatun Takımı Teknofest Ulaşımda Yapay Zeka Yarışması Veri Seti},
-  year         = {2021},
-  publisher    = {GitHub},
-  journal      = {GitHub repository},
-  howpublished = {\url{https://github.com/sezer-muhammed/Teknofest-Ulasimda-Yapay-Zeka-Veri-Seti}},
-}
-```
