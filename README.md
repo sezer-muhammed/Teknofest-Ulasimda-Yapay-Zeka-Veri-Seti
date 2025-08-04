@@ -4,9 +4,10 @@
 
 ## 🔗 Links
 
-- 🧪 [Live Demo (Hugging Face)](https://huggingface.co/spaces/sezer-muhammed/Traffic-Object-Detection)
-- 📦 [Download Dataset (Google Drive)](https://drive.google.com/file/d/1NdMg_4DKWNWg6_lzqMm6tzfqBjaK8Hdu/view?usp=sharing)
-- 📺 [YouTube Channel](https://bit.ly/SezerSevvalYoutube)
+[![Live Demo (Hugging Face)](https://img.shields.io/badge/Demo-HuggingFace-orange)](https://huggingface.co/spaces/sezer-muhammed/Traffic-Object-Detection)  
+[![Download Dataset](https://img.shields.io/badge/Download-Dataset-blue)](https://drive.google.com/file/d/1NdMg_4DKWNWg6_lzqMm6tzfqBjaK8Hdu/view?usp=sharing)  
+[![YouTube Channel](https://img.shields.io/badge/YouTube-Channel-red)](https://bit.ly/SezerSevvalYoutube)
+
 
 ---
 
